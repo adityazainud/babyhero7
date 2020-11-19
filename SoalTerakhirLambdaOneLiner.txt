@@ -1,0 +1,1 @@
+data_homework['is_high_trx'] = data_homework.apply(lambda q: 'High' if q['trx']>50 else 'Low' ,axis=1)
